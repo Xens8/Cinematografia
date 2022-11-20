@@ -1,0 +1,276 @@
+body{
+    text-align: center;
+    background-color: #497174;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: black;
+}
+.textouno{
+    font-family: fantasy;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-shadow: 3px 2px red;
+}
+.textodos{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+.titulo{
+    font-family: fantasy;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-shadow: 3px 2px red;
+}
+header{
+    background-color: #EB6440;
+    padding: 0rem 0rem;
+}
+
+.textotres{
+    font-family: fantasy;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    text-shadow: 3px 2px red;
+    
+}
+.textopelicula1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2;
+    font-weight: bold;
+    color: white;
+}
+
+h1{
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-shadow: 3px 2px red;
+    font-family: fantasy;
+    
+}
+
+h1:after,h1::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+    transform: scale(0);
+    transition: all 0.2s ease-in;
+}
+h1:hover::before, h1:hover::after{
+    transform: scale(1);
+}
+
+h1::before{
+    left: -140px; ;
+}
+h1::after{
+    right: -140px; ;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #A3C7D6;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,20);
+    transform: translateY(-3%);
+}
+.card .contenido {
+    padding: 15px;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+.card .contenido h3{
+    font-weight: 400;
+    margin-bottom: 15px;
+
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 4px;
+    transition: all 400ms ease;
+}
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+h6{
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-shadow: 3px 2px red;
+    font-family: fantasy;
+    
+}
+
+h6:after,h6::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+    transform: scale(0);
+    transition: all 0.2s ease-in;
+}
+h6:hover::before, h6:hover::after{
+    transform: scale(1);
+}
+
+h6::before{
+    left: -140px; ;
+}
+h6::after{
+    right: -140px; ;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+h4{
+    display: inline-block;
+    position: relative;
+    color: black;
+    text-shadow: 3px 2px red;
+    font-family: fantasy;
+    
+}
+
+h4:after,h4::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+    transform: scale(0);
+    transition: all 0.2s ease-in;
+}
+h4:hover::before, h4:hover::after{
+    transform: scale(1);
+}
+
+h4::before{
+    left: -140px; ;
+}
+h4::after{
+    right: -140px; ;
+}
+.container{
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+}
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook2{
+    background: #0014FF;
+}
+.icon-twitter{
+    background: #00E7FF;
+}
+.icon-instagram{
+    background: #DC3535;
+}
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+    border-radius:0 0 0 1rem;
+}
+
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 190px;
+  }
+  
+  .form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .form-control input:focus,
+  .form-control input:valid {
+    outline: 0;
+    border-bottom-color: lightblue;
+  }
+  
+  .form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    color: #fff;
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .form-control input:focus+label span,
+  .form-control input:valid+label span {
+    color: lightblue;
+    transform: translateY(-30px);
+  }
